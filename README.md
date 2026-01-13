@@ -83,12 +83,5 @@ Enter SQLite database name (with .db extension): users.db
 
 ## Output
 
-* A new SQLite database file (e.g., `users.db`)
-* A `users` table populated with data from `users.csv`
-
-Existing records with the same `ID` will be replaced.
-
+* A new SQLite database file (e.g., `users.db`) is created
 ---
-
-* The script uses `INSERT OR REPLACE` to avoid duplicate primary keys
-* UTF-8 encoding is suppo
