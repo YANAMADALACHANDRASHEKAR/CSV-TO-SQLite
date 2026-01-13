@@ -70,7 +70,7 @@ CREATE TABLE users (
 2. Run the script:
 
 ```bash
-python import_csv_to_sqlite.py
+python csvtosqlite.py
 ```
 
 3. When prompted, enter the SQLite database name:
